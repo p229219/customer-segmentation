@@ -77,6 +77,13 @@ Conclusions
 
 #### ***We have zero null values in any column***
 
+### Statistics Summary of Dataset:
+![0](https://user-images.githubusercontent.com/114009434/195467808-67aa6074-1317-4701-8f00-7aef445c39a4.png)
+###### Age: ***min age: 18 , max age: 70***
+###### Aunnal Income : ***min : 15K$ and max : 137K$***
+###### Spending Score : ***min : 01 and max : 99***
+
+
 ## VISUALIZATION
 
 ### Gender Basis
