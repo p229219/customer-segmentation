@@ -86,7 +86,42 @@ Conclusions
 
 ## VISUALIZATION
 
-### Gender Basis
+### Gender Basis:
+![3](https://user-images.githubusercontent.com/114009434/195567049-1ce5f94e-e993-46f8-8428-8a5d3b3e6aa1.jpg)
+
+***from data we can say that ratio of male is less than female.***
+
+***male= 44%***
+***female = 56%***
+
+###### **Now it's the moment to visualize our data and plot important information so we can see the different values our data has and its behaviour. To do so, I am going to consider the following features: Annual_income, Spending_score and Age. Gender will only be used to make data sepparation so I can differentiate values for men and women.To begin with, I am plotting the histograms for each of the three features we said we would look into:**
+![005](https://user-images.githubusercontent.com/114009434/195571686-d7a3351d-2bce-476c-b611-153bd29be1f5.png) ![006](https://user-images.githubusercontent.com/114009434/195571773-6cc99f12-9122-4a4b-985c-e2dfcf9a8b7e.jpg) ![007](https://user-images.githubusercontent.com/114009434/195571835-1a8c395f-dee6-4f3b-8660-bbde485d58b5.jpg)
+##### **In these histograms I observed that the distribution of these values resembles a Gaussian distribution, where the vast majority of the values lay in the middle with some exceptions in the extremes.**
+
+###  Visualization distribution of number of customers in each age group: 
+##### To find out the range of age which have highest number of customer . therefore from statistics summary of dataset i got a reading where minimun age is 18 and maximum age is 70. so i divided the age into 5 group that is age from 18-25 , 26-35,36-45,45-55 and 56+.
+![1](https://user-images.githubusercontent.com/114009434/195574985-053fdecc-abc6-443d-82db-e5f5dacdd718.png)
+##### **Clearly the 26–35 age group outweighs every other age group**.
+
+###  visualization distribution of the customers score according to their spending scores.
+##### To find out majority of the customer having highest score ,i consiodered the  statistics summary of dataset i got a reading where minimun spending score is 01 and maximum spending score is 99. so i divided the spending score  into 5 group that is age from 1-20 , 21-40,41-60,61-80 and 81-100.
+![2](https://user-images.githubusercontent.com/114009434/195576116-9980b03c-12cd-4a80-a6c0-b203ae7a7094.png)
+##### **The majority of the customers have spending score in the range 41–60.**
+
+###  visualization distribution of highest income customers according to their annual income.
+##### To find out customer income from their annual income, i consider the  statistics summary of dataset where i got a reading where minimun annual salary is 15k$ and maximum annual salary  is 137k$. so i divided the annual income  into 5 group that is age from 1-30k$ , 31-60k$,61-90k$,91-120k$ and 121-150k$.
+![3](https://user-images.githubusercontent.com/114009434/195580121-102c3679-43e6-4afc-8563-b3315d1a0f36.png)
+##### **The majority of the customers have annual income in the range 61k$ and 90k$.**
+
+### Building the Model:
+##### **Standardizing data is a good practice when clustering, as the range of values within each feature will influence how the cluster is formed, which is not usually desirable. Kmeans clustering uses Euclidean distance to measure the similarity between objects, so if a feature has a range much larger than another feature, it will dominate the other features in the clustering process.The model was initiated on the standardized data to cluster based on age, income, and spending score.**
+
+### Tuning the Model :
+When using Kmeans, the number of clusters (k), is a value to be set by the user. There are a few methods to determine the appropriate number of clusters, as shown below
+
+
+
+
 
 
 
